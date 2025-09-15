@@ -33,3 +33,34 @@ Gracias a esta base, se entiende mucho mejor el funcionamiento de algoritmos com
 - Librerías:  
   ```bash
   pip install numpy pandas scikit-learn
+
+
+  📂 Archivos incluidos
+
+📌 arbol_modulo.py
+Contiene la implementación pura de la clase Nodo.
+Aquí está toda la lógica de construcción del árbol:
+
+Cálculo de impureza (Gini).
+
+Selección del mejor split.
+
+Creación de hojas y almacenamiento de probabilidades.
+
+Métodos predecir y predict_proba.
+
+Este archivo es la base principal del proyecto, desarrollado manualmente para entender cómo funciona un árbol de decisión desde dentro.
+
+📌 comparacion_manual_vs_libreria.py
+Script generado con ayuda de ChatGPT.
+Su función es comparar el rendimiento del árbol manual (Nodo) con el de DecisionTreeClassifier de scikit-learn.
+
+Incluye:
+
+Entrenamiento y evaluación de ambos modelos en datasets de ejemplo (breast_cancer, iris).
+
+Métricas (Accuracy, AUC, LogLoss, Brier score).
+
+Comparaciones en múltiples seeds (para analizar varianza).
+
+Este archivo no forma parte del desarrollo central del árbol, sino que sirve como validador externo para comprobar que los resultados del Nodo son consistentes con los de scikit-learn.
