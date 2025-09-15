@@ -37,7 +37,7 @@ Gracias a esta base, se entiende mucho mejor el funcionamiento de algoritmos com
 
 ## 📂 Archivos incluidos
 
-📌 arbol_modulo.py
+📌 **arbol_modulo.py**
 Contiene la implementación pura de la clase Nodo.
 Aquí está toda la lógica de construcción del árbol:
 
@@ -51,8 +51,9 @@ Métodos predecir y predict_proba.
 
 Este archivo es la base principal del proyecto, desarrollado manualmente para entender cómo funciona un árbol de decisión desde dentro.
 
-📌 comparacion_manual_vs_libreria.py
-Script generado con ayuda de ChatGPT.
+📌 **comparacion_manual_vs_libreria.py**
+Script generado a partir de un promt **ChatGPT**.
+
 Su función es comparar el rendimiento del árbol manual (Nodo) con el de DecisionTreeClassifier de scikit-learn.
 
 Incluye:
