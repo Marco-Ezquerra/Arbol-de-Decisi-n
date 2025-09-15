@@ -25,16 +25,6 @@ Gracias a esta base, se entiende mucho mejor el funcionamiento de algoritmos com
 
 ---
 
-
-
-## 🧱 Requisitos
-
-- Python 3.9+
-- Librerías:  
-  ```bash
-  pip install numpy pandas scikit-learn
-
-
 ## 📂 Archivos incluidos
 
 📌 **arbol_modulo.py**
