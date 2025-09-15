@@ -35,7 +35,8 @@ Gracias a esta base, se entiende mucho mejor el funcionamiento de algoritmos com
   pip install numpy pandas scikit-learn
 
 
-  📂 Archivos incluidos
+
+  ##📂 Archivos incluidos
 
 📌 arbol_modulo.py
 Contiene la implementación pura de la clase Nodo.
